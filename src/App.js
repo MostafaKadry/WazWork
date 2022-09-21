@@ -1,7 +1,11 @@
 import "./App.css";
-
+import Products from "./components/Products/Products.js";
 function App() {
-  return <div>Head</div>;
+  return (
+    <>
+      <Products />
+    </>
+  );
 }
 
 export default App;
