@@ -4,7 +4,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
-      <nav></nav>
+      <nav>
+        <div className="brand"></div>
+        <ul className="pages"></ul>
+      </nav>
     </div>
   );
 };
