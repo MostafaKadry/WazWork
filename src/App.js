@@ -8,7 +8,7 @@ import Team from "./components/Team/Team";
 
 function App() {
   return (
-    <div className="app container">
+    <div>
       <Router>
         <Navbar />
         <Routes>

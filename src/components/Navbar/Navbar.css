@@ -1,17 +1,5 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-nav ul li {
-  list-style: none;
+.navbar-container {
+  background-color: #F6F8FB;
 }
 
 nav ul li a {
