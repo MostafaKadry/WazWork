@@ -9,13 +9,14 @@ import Team from "./components/Team/Team";
 function App() {
   return (
     <div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/team" element={<Team />} />
           <Route path="/products" element={<Products />} />
+          <Route path="*" element="Not Found" />
         </Routes>
       </Router>
     </div>
