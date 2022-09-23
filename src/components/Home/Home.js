@@ -143,7 +143,7 @@ const Services = () => {
 
 const WeDesign = () => {
   return (
-    <section className="wedesign-section d-flex justify-content-between align-items-center">
+    <section className="wedesign-section d-flex justify-content-between align-items-center py-5 my-3">
       <div>
         <h2 className="w-75 pt-5 mt-5">
           we design and build innovative solutions for our trusted partenars

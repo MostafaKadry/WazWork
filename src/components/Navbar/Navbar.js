@@ -4,7 +4,7 @@ import "./Navbar.css";
 import Logo from "./imgs/Logo.svg";
 const Navbar = () => {
   return (
-    <nav className="py-3 navbar-container navbar navbar-expand-lg">
+    <nav className="py-5 navbar-container navbar navbar-expand-lg">
       <div className="container-fluid">
         <div className="Logo-contianer">
           <img src={Logo} alt="logo" />
