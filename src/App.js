@@ -8,7 +8,7 @@ import Team from "./components/Team/Team";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>

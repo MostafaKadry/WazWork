@@ -1,0 +1,22 @@
+.home {
+  background-color: #f6f8fb;
+  padding: 100px 100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home h1 {
+  font-weight: bold;
+}
+
+.home p {
+  font-size: 1rem;
+}
+
+.home button.contact-btn {
+  border-radius: 30px;
+  background-color: #00afdb;
+  border: none;
+  padding: 13px;
+  width: 160px;
+  color: white;
+}
