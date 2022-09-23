@@ -10,14 +10,16 @@ import dataScience from "./imgs/Services/Data Science.png";
 import frontend from "./imgs/Services/Frontend.png";
 import backend from "./imgs/Services/Backend.png";
 import ai from "./imgs/Services/Ai.png";
+import wedesign from "./imgs/SVG/we design and build.png";
+import whywazwork from "./imgs/SVG/Why Wazwork.png";
 
-const MainSection = () => {
+const Main = () => {
   return (
     <section className="main-section d-flex justify-content-between align-items-center">
       <div>
-        <h1 className="">
+        <h2 className="w-75">
           Discover your perfect service and the prices that suit your business.
-        </h1>
+        </h2>
         <p className="w-75 lead lh-lg my-4">
           Every business needs from us an integrated coverage in order to
           achieve the goal of our clients. Where better customer service is our
@@ -32,14 +34,14 @@ const MainSection = () => {
   );
 };
 
-const WhoSection = () => {
+const WhoAreWe = () => {
   return (
     <section className="who-section py-5 my-5 d-flex justify-content-between align-items-center">
       <div>
         <img alt="" className="" src={WhoLogo} />
       </div>
       <div>
-        <h1 className="w-50 m-auto">who we are ?</h1>
+        <h2 className="w-50 m-auto">who we are ?</h2>
         <p className="w-50 m-auto lh-lg my-4">
           Behind our Golden Arches is a global team,
           designers,programmers,........etc and numbers of there projects others
@@ -64,7 +66,7 @@ const Service = ({ icon_container, title, content, color }) => {
   );
 };
 
-const ServicesSection = () => {
+const Services = () => {
   return (
     <div className="services-section">
       <div className="services-container">
@@ -139,12 +141,36 @@ const ServicesSection = () => {
   );
 };
 
+const WeDesign = () => {
+  return (
+    <section className="wedesign-section d-flex justify-content-between align-items-center">
+      <div>
+        <h2 className="w-75 pt-5 mt-5">
+          we design and build innovative solutions for our trusted partenars
+        </h2>
+        <p className="w-75 lead lh-lg my-4">
+          Wazwork provides specialized and responsive technical consulting
+          services for companies and agencies of all sizes. It also has teams
+          that contain professional designers and programmers to do business
+          such as web, design, advertising, application programming, data
+          analysis, artificial intelligence....etc. And you can browse many
+          projects on wazwork.
+        </p>
+      </div>
+      <div>
+        <img alt="" className="" src={wedesign} />
+      </div>
+    </section>
+  );
+};
+
 const Home = () => {
   return (
     <div className="home">
-      <MainSection />
-      <WhoSection />
-      <ServicesSection />
+      <Main />
+      <WhoAreWe />
+      <Services />
+      <WeDesign />
     </div>
   );
 };

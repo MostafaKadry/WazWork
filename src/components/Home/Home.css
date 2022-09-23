@@ -5,7 +5,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.home h1 {
+.home h2 {
   font-weight: bold;
 }
 
@@ -27,7 +27,7 @@
   font-weight: 700;
 }
 
-.home .services-section .service {
+.home .service {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -35,6 +35,7 @@
   text-align: center;
   padding: 2%;
   transition: 0.3s;
+  padding: 15px;
 }
 
 .home .service:hover {
