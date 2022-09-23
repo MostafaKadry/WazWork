@@ -94,7 +94,7 @@ const CopyRights = () => {
 };
 const Footer = () => {
   return (
-    <div className="bg-color pt-3 mt-3">
+    <div className="bg-color pt-5">
       <div className="container mb-5">
         <div className="row mx-0">
           <Company />
