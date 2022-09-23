@@ -9,7 +9,7 @@ import Team from "./components/Team/Team";
 function App() {
   return (
     <div>
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
