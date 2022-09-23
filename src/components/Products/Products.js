@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Products.css";
 import ProductImg from "./imgs/products.svg";
 const Head = () => {
   return (
-    <div className="row products-head px-3">
+    <div className="row products-head px-3 mx-0">
       <div className="col-md-6">
         <h2>Our services</h2>
         <p>
@@ -44,7 +44,6 @@ const NavProducts = () => {
   );
 };
 const Products = () => {
-  const [product, setProduct] = useState("");
   return (
     <>
       <Head />
