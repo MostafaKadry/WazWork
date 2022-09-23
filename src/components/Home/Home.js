@@ -164,6 +164,26 @@ const WeDesign = () => {
   );
 };
 
+const WhyWazwork = () => {
+  return (
+    <section className="who-section py-5 my-5 d-flex justify-content-between align-items-center">
+      <div>
+        <img alt="" className="" src={whywazwork} />
+      </div>
+      <div>
+        <h2 className="w-50 m-auto">Why WAZWORK ?</h2>
+        <p className="w-50 m-auto lh-lg my-4">
+          wazwork has a lot of services that owners of simple, small, medium and
+          large companies need. It also does not need very high prices because
+          our goal is to serve the customer to the fullest. For the service,
+          wazwork will be with you step by step until completing your tasks in a
+          very short time.
+        </p>
+      </div>
+    </section>
+  );
+};
+
 const Home = () => {
   return (
     <div className="home">
@@ -171,6 +191,7 @@ const Home = () => {
       <WhoAreWe />
       <Services />
       <WeDesign />
+      <WhyWazwork />
     </div>
   );
 };
