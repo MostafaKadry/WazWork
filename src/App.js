@@ -8,8 +8,13 @@ import Team from "./components/Team/Team";
 
 function App() {
   return (
+<<<<<<< HEAD
     <div>
       <Router>
+=======
+    <div className="app">
+      <Router basename={process.env.PUBLIC_URL}>
+>>>>>>> e83cacb839a10aaea67099533c41f8ba6e85d756
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
