@@ -1,3 +1,19 @@
 .team {
   background-color: #f6f8fb;
+  padding: 50px 100px;
+}
+
+.ourTeam-section {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.members {
+  display: flex;
+  margin: 130px 0 0 0;
+}
+
+.members-title {
+  font-weight: 800;
+  font-family: monospace;
 }
