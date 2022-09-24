@@ -10,91 +10,77 @@ import EmanMohammed from "./imgs/Eman Mohammed.png";
 import EslamAshraf from "./imgs/Eslam Ashraf.png";
 import MahmoudIbrahim from "./imgs/Mahmoud Ibrahim.png";
 import MaiAhmed from "./imgs/Mai Ahmed.png";
-import RabaaWazeer from "./imgs/Rabaa Wazeer.png";
-const Head = () => {
+
+const OurTeam = () => {
   return (
-    <div className="row products-head px-3 mx-0">
-      <div className="col-md-6">
-        <h2>Our Team</h2>
-        <p>
-          We strive for excellence in every day interactions. Contact us we are
-          committed to helping peaple and organizations change more effectively
-          WazWork is a team of dynamic
+    <section className="ourTeam-section d-flex justify-content-between align-items-center">
+      <div>
+        <h2 className="w-75">Our Team</h2>
+        <p className="w-75 lead lh-lg my-4">
+          We strive for excellence in everyday interactions. Contact us We are
+          committed to helping people and organizations change more effectively
+          Wazwork is a team of dynamic.
         </p>
+        <button className="contact-btn">Contact us</button>
       </div>
-      <div className="col-md-6">
-        <img src={TeamImg} alt="TeamImg" className="w-100" />
-      </div>
-    </div>
-  );
-};
-const Members = () => {
-  return (
-    <section id="members">
-      <h1>Meet our team</h1>
-      <div class="container row text-center">
-        <div class="member col-lg-3 col-md-6 col-sm-6">
-          <img src={AliWazir} alt="member1" />
-          <h1>Ali Wazir</h1>
-          <p>Ai Engineer</p>
-        </div>
-        <div class="member  col-lg-3 col-md-6 col-sm-6">
-          <img src={AmrSalah} alt="member2" />
-          <h1>Amr Salah</h1>
-          <p>UI/UX design</p>
-        </div>
-        <div class="member  col-lg-3 col-md-6 col-sm-6">
-          <img src={AhmedHassan} alt="member3" />
-          <h1>Ahmed Hassan</h1>
-          <p>Graphic Designer</p>
-        </div>
-        <div class="member  col-lg-3 col-md-6 col-sm-6">
-          <img src={RabaaWazeer} alt="member4" />
-          <h1>Rabaa Wazeer</h1>
-          <p>Data Analysis</p>
-        </div>
-        <div class="member  col-lg-3  col-md-6 col-sm-6">
-          <img src={DaliaMohamed} alt="member5" />
-          <h1>Dalia Mahmoud</h1>
-          <p>Frontend developer</p>
-        </div>
-        <div class="member  col-lg-3 col-md-6 col-sm-6 ">
-          <img src={EslamAshraf} alt="member6" />
-          <h1>Eslam Ashraf</h1>
-          <p>Web developer</p>
-        </div>
-
-        <div class="member  col-lg-3  col-md-6 col-sm-6">
-          <img src={MostafaKadry} alt="member7" style={{ width: "200px" }} />
-          <h1>Moustafa Kadry</h1>
-          <p>Fullstack Web Developer</p>
-        </div>
-
-        <div class="member  col-lg-3  col-md-6 col-sm-6">
-          <img src={MahmoudIbrahim} alt="member8" />
-          <h1>Mahmoud Ibrahim</h1>
-          <p>Web Penetration Testing</p>
-        </div>
-        <div class="member  col-lg-3  col-md-6 col-sm-6">
-          <img src={MaiAhmed} alt="member8" />
-          <h1>Mai Ahmed</h1>
-          <p>Frontend developer</p>
-        </div>
-        <div class="member  col-lg-3  col-md-6 col-sm-6">
-          <img src={EmanMohammed} alt="member8" />
-          <h1>Eman Mohammed</h1>
-          <p>backend developer</p>
-        </div>
+      <div>
+        <img alt="" src={ourTeam} />
       </div>
     </section>
   );
 };
+
+const PersonalCard = ({ img, name, title }) => {
+  return (
+    <div className="personal-card col-3 py-4">
+      <div className="img-container">
+        <img src={img} alt="" />
+      </div>
+      <div className="info py-2">
+        <h3>{name}</h3>
+        <h5>{title}</h5>
+      </div>
+    </div>
+  );
+};
+
+const TeamMempers = () => {
+  return (
+    <section className="members row text-center">
+      <div className="members-title py-5">
+        <h1>Meet Out Team</h1>
+      </div>
+      <PersonalCard img={AliWazir} name="Ali Wazir" title="Ai Engineer" />
+      <PersonalCard img={AmrSalah} name="Amr Salah" title="Ui/Ux Designer" />
+      <PersonalCard
+        img={Moustafa}
+        name="Moustafa Kadry"
+        title="Web developer"
+      />
+
+      <PersonalCard img={Eslam} name="Eslam Ashraf" title="Web Developer" />
+      <PersonalCard
+        img={AhmedHassan}
+        name="Ahmed Hassan"
+        title="Graphic Designer"
+      />
+      <PersonalCard img={Rabaa} name="Rabaa Wazeer" title="Data analyst" />
+      <PersonalCard img={Dalia} name="Dalia Mahmoud" title="Web Developer" />
+      <PersonalCard
+        img={Mahmoud}
+        name="Mahmoud Ibrahim"
+        title="Web Penetration Test"
+      />
+    </section>
+  );
+};
+
 const Team = () => {
   return (
-    <>
-      <Head />
-      <Members />
-    </>
+    <div className="team">
+      <OurTeam />
+      <TeamMempers />
+    </div>
   );
 };
 
