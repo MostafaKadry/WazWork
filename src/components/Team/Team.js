@@ -7,10 +7,10 @@ import AliWazir from "./imgs/Ali Wazir.png";
 import AmrSalah from "./imgs/Amr Salah.png";
 import DaliaMohamed from "./imgs/Dalia Mahmoud.png";
 import EmanMohammed from "./imgs/Eman Mohammed.png";
-import EslamAshraf from "./imgs/Eslam Ashraf.png";
+import Eslam from "./imgs/Eslam Ashraf.png";
 import MahmoudIbrahim from "./imgs/Mahmoud Ibrahim.png";
 import MaiAhmed from "./imgs/Mai Ahmed.png";
-
+import Rabaa from "./imgs/Rabaa Wazeer.png";
 const OurTeam = () => {
   return (
     <section className="ourTeam-section d-flex justify-content-between align-items-center">
@@ -24,7 +24,7 @@ const OurTeam = () => {
         <button className="contact-btn">Contact us</button>
       </div>
       <div>
-        <img alt="" src={ourTeam} />
+        <img alt="TeamImg" src={TeamImg} />
       </div>
     </section>
   );
@@ -53,7 +53,7 @@ const TeamMempers = () => {
       <PersonalCard img={AliWazir} name="Ali Wazir" title="Ai Engineer" />
       <PersonalCard img={AmrSalah} name="Amr Salah" title="Ui/Ux Designer" />
       <PersonalCard
-        img={Moustafa}
+        img={MostafaKadry}
         name="Moustafa Kadry"
         title="Web developer"
       />
@@ -65,9 +65,15 @@ const TeamMempers = () => {
         title="Graphic Designer"
       />
       <PersonalCard img={Rabaa} name="Rabaa Wazeer" title="Data analyst" />
-      <PersonalCard img={Dalia} name="Dalia Mahmoud" title="Web Developer" />
+      <PersonalCard img={MaiAhmed} name=" Mai Ahmed" title="Front End" />
+      <PersonalCard img={EmanMohammed} name=" Eman Mohammed" title="Back End" />
       <PersonalCard
-        img={Mahmoud}
+        img={DaliaMohamed}
+        name="Dalia Mahmoud"
+        title="Web Developer"
+      />
+      <PersonalCard
+        img={MahmoudIbrahim}
         name="Mahmoud Ibrahim"
         title="Web Penetration Test"
       />
