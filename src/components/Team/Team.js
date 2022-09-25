@@ -48,13 +48,13 @@ const TeamMempers = () => {
   return (
     <section className="members row text-center">
       <div className="members-title py-5">
-        <h1>Meet Out Team</h1>
+        <h1>Meet Our Team</h1>
       </div>
       <PersonalCard img={AliWazir} name="Ali Wazir" title="Ai Engineer" />
       <PersonalCard img={AmrSalah} name="Amr Salah" title="Ui/Ux Designer" />
       <PersonalCard
         img={MostafaKadry}
-        name="Moustafa Kadry"
+        name="Mostafa Kadry"
         title="Web developer"
       />
 

@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <nav className="py-5 navbar-container navbar navbar-expand-lg">
       <div className="container-fluid">
-        <div className="Logo-contianer">
+        <div className="Logo-contianer ms-2 mb-4">
           <img src={Logo} alt="logo" />
         </div>
         <button
@@ -20,8 +20,11 @@ const Navbar = () => {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul className="navbar-nav mb-2 mb-lg-0 ">
             <li className="mx-3 nav-item">
               <Link to="/">Home</Link>
             </li>

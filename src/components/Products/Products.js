@@ -5,12 +5,11 @@ const Head = () => {
   return (
     <div className="row products-head px-3 mx-0">
       <div className="col-md-6">
-        <h2>Our services</h2>
+        <h2>Products</h2>
         <p>
-          our service depends on what customers need from us. After giving a
-          brief description of our services on the main page, customers can
-          communicate to discuss the project to be implemented to reach the best
-          solution and implementation immediately.
+          This Category includes new products where the direct benefit to the
+          customer is high. you can see the work of WazWork team through the
+          products
         </p>
       </div>
       <div className="col-md-6">
