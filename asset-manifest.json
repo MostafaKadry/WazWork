@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/WazWork/static/css/main.46ea0d4e.css",
+    "main.js": "/WazWork/static/js/main.7eb77fd1.js",
+    "static/media/Our Team.svg": "/WazWork/static/media/Our Team.80d360abaec811f0cdfa864842b2a8a4.svg",
+    "static/media/Home Page.png": "/WazWork/static/media/Home Page.723d52170c81e58291e9.png",
+    "static/media/products.svg": "/WazWork/static/media/products.f66500cbfe69f64a65c820a78b397fef.svg",
+    "static/media/services.svg": "/WazWork/static/media/services.be8a27482ccbee11f5fa71a5b6c8c133.svg",
+    "static/media/Ali Wazir.png": "/WazWork/static/media/Ali Wazir.b2632a2f6fdf8db4bdd6.png",
+    "static/media/Eman Mohammed.png": "/WazWork/static/media/Eman Mohammed.5e17104cb467cb1ac8cc.png",
+    "static/media/Mai Ahmed.png": "/WazWork/static/media/Mai Ahmed.22f639d2e05a011cfe5d.png",
+    "static/media/Ahmed Hassan.png": "/WazWork/static/media/Ahmed Hassan.890354160a03f7f1d961.png",
+    "static/media/Who we are.png": "/WazWork/static/media/Who we are.fbbe32b09027d1573e51.png",
+    "static/media/Why Wazwork.png": "/WazWork/static/media/Why Wazwork.1c83ef2dd9bf8980b461.png",
+    "static/media/we design and build.png": "/WazWork/static/media/we design and build.97be2e2976605c23a4e9.png",
+    "static/media/Eslam Ashraf.png": "/WazWork/static/media/Eslam Ashraf.9c30e969e220bf0e858a.png",
+    "static/media/Rabaa Wazeer.png": "/WazWork/static/media/Rabaa Wazeer.834b5a144f7ff4eb503f.png",
+    "static/media/Amr Salah.png": "/WazWork/static/media/Amr Salah.354c30190f59550c2a8b.png",
+    "static/media/Dalia Mahmoud.png": "/WazWork/static/media/Dalia Mahmoud.c8f30a3101b3610331ed.png",
+    "static/media/Mahmoud Ibrahim.png": "/WazWork/static/media/Mahmoud Ibrahim.c339ab4381cce1b85c26.png",
+    "static/media/Logo.svg": "/WazWork/static/media/Logo.513e3a932b19820eb8809cadc613612a.svg",
+    "static/media/graphicDesign.svg": "/WazWork/static/media/graphicDesign.277660081139f43530c6fa98f691147d.svg",
+    "static/media/Ai.svg": "/WazWork/static/media/Ai.984b9efaba66f5a0daabf5a088b4d1cc.svg",
+    "static/media/Backend.svg": "/WazWork/static/media/Backend.5c0f33c82205e5596eb79bb71b6444e4.svg",
+    "static/media/dataAnalysis.svg": "/WazWork/static/media/dataAnalysis.5554a8c822f882503433221c88b66f61.svg",
+    "static/media/dataScience.svg": "/WazWork/static/media/dataScience.b3342ef64f7be1107a817d3ad6b763ef.svg",
+    "static/media/Frontend.svg": "/WazWork/static/media/Frontend.9cc1db18ca3d747ee2f35b657278e207.svg",
+    "static/media/Marketing.svg": "/WazWork/static/media/Marketing.61e13945c6636b3b64ddcaba95ba6253.svg",
+    "static/media/ui-ux.svg": "/WazWork/static/media/ui-ux.5fe1a2ca7b9e28ff64013a9cb5ddbab2.svg",
+    "static/media/LinkedIn.svg": "/WazWork/static/media/LinkedIn.83819083eba6ca4ecdeb462a168f93cc.svg",
+    "static/media/Facebook.svg": "/WazWork/static/media/Facebook.875404911e5fde1afb9ab0d4eee294e4.svg",
+    "static/media/Twitter.svg": "/WazWork/static/media/Twitter.caeff2c5c0bbca159383e9ecf13cdf83.svg",
+    "index.html": "/WazWork/index.html",
+    "static/media/Phone.svg": "/WazWork/static/media/Phone.2f74d971b4765aacc5653dcd7b27ab59.svg",
+    "main.46ea0d4e.css.map": "/WazWork/static/css/main.46ea0d4e.css.map",
+    "main.7eb77fd1.js.map": "/WazWork/static/js/main.7eb77fd1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46ea0d4e.css",
+    "static/js/main.7eb77fd1.js"
+  ]
+}
