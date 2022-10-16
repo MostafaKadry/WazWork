@@ -13,26 +13,27 @@ import MaiAhmed from "./imgs/Mai Ahmed.png";
 import Rabaa from "./imgs/Rabaa Wazeer.png";
 const OurTeam = () => {
   return (
-    <section className="ourTeam-section d-flex justify-content-between align-items-center">
-      <div>
-        <h2 className="w-75">Our Team</h2>
-        <p className="w-75 lead lh-lg my-4">
-          We strive for excellence in everyday interactions. Contact us We are
+    <section className="">
+      <div className="head">
+      <div className="head-img">
+        <img alt="" src={TeamImg} />
+      </div>
+      <div className="content">
+        <h2>Our Team</h2>
+        <p>
+        We strive for excellence in everyday interactions. Contact us We are
           committed to helping people and organizations change more effectively
           Wazwork is a team of dynamic.
         </p>
-        <button className="contact-btn">Contact us</button>
       </div>
-      <div>
-        <img alt="TeamImg" src={TeamImg} />
-      </div>
+    </div>
     </section>
   );
 };
 
 const PersonalCard = ({ img, name, title }) => {
   return (
-    <div className="personal-card col-3 py-4">
+    <div className="member">
       <div className="img-container">
         <img src={img} alt="" />
       </div>
@@ -46,10 +47,11 @@ const PersonalCard = ({ img, name, title }) => {
 
 const TeamMempers = () => {
   return (
-    <section className="members row text-center">
-      <div className="members-title py-5">
-        <h1>Meet Our Team</h1>
-      </div>
+    <section className="main">
+      
+        <h2>Meet Our Team</h2>
+      
+      <div className="members-container">
       <PersonalCard img={AliWazir} name="Ali Wazir" title="Ai Engineer" />
       <PersonalCard img={AmrSalah} name="Amr Salah" title="Ui/Ux Designer" />
       <PersonalCard
@@ -77,6 +79,7 @@ const TeamMempers = () => {
         name="Mahmoud Ibrahim"
         title="Web Penetration Test"
       />
+      </div>
     </section>
   );
 };

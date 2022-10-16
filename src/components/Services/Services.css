@@ -67,6 +67,12 @@ body {
 
 }
 
+ .service:hover {
+    transform: scale(1.2);
+    border-radius: 12px;
+    background-color: #dadada;
+  }
+
 @media only screen and (min-width: 300px) {
 
     /* For mobile phones: */
@@ -80,6 +86,10 @@ body {
 
     .head .content {
         order: 1;
+    }
+
+    .head-img img {
+        width: 100%;
     }
 }
 
@@ -97,6 +107,10 @@ body {
     .head .content {
         order: 1;
     }
+    
+    .head-img img{
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 961px) {
@@ -113,4 +127,6 @@ body {
     .head .content {
         order: -1;
     }
+
+    
 }
