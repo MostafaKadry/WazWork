@@ -41,7 +41,7 @@ const Head = () => {
   );
 };
 
-const Main = () => {
+export const Main = () => {
   return (
     <div className="main">
       <h2>Design</h2>
