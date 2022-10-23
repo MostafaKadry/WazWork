@@ -1,7 +1,7 @@
 import React from "react";
 import "./Team.css";
 import TeamImg from "./imgs/Our Team.svg";
-import MostafaKadry from "./imgs/Moustafa Kadry.png";
+import MostafaKadry from "./imgs/mostafa-kadry.jpeg";
 import AhmedHassan from "./imgs/Ahmed Hassan.png";
 import AliWazir from "./imgs/Ali Wazir.png";
 import AmrSalah from "./imgs/Amr Salah.png";
@@ -15,18 +15,18 @@ const OurTeam = () => {
   return (
     <section className="">
       <div className="head">
-      <div className="head-img">
-        <img alt="" src={TeamImg} />
+        <div className="head-img">
+          <img alt="" src={TeamImg} />
+        </div>
+        <div className="content">
+          <h2>Our Team</h2>
+          <p>
+            We strive for excellence in everyday interactions. Contact us We are
+            committed to helping people and organizations change more
+            effectively Wazwork is a team of dynamic.
+          </p>
+        </div>
       </div>
-      <div className="content">
-        <h2>Our Team</h2>
-        <p>
-        We strive for excellence in everyday interactions. Contact us We are
-          committed to helping people and organizations change more effectively
-          Wazwork is a team of dynamic.
-        </p>
-      </div>
-    </div>
     </section>
   );
 };
@@ -35,7 +35,11 @@ const PersonalCard = ({ img, name, title }) => {
   return (
     <div className="member">
       <div className="img-container">
-        <img src={img} alt="" />
+        <img
+          src={img}
+          alt=""
+          className={name === "Mostafa Kadry" ? "mostafa-img" : ""}
+        />
       </div>
       <div className="info py-2">
         <h3>{name}</h3>
@@ -48,37 +52,40 @@ const PersonalCard = ({ img, name, title }) => {
 const TeamMempers = () => {
   return (
     <section className="main">
-      
-        <h2>Meet Our Team</h2>
-      
-      <div className="members-container">
-      <PersonalCard img={AliWazir} name="Ali Wazir" title="Ai Engineer" />
-      <PersonalCard img={AmrSalah} name="Amr Salah" title="Ui/Ux Designer" />
-      <PersonalCard
-        img={MostafaKadry}
-        name="Mostafa Kadry"
-        title="Web developer"
-      />
+      <h2>Meet Our Team</h2>
 
-      <PersonalCard img={Eslam} name="Eslam Ashraf" title="Web Developer" />
-      <PersonalCard
-        img={AhmedHassan}
-        name="Ahmed Hassan"
-        title="Graphic Designer"
-      />
-      <PersonalCard img={Rabaa} name="Rabaa Wazeer" title="Data analyst" />
-      <PersonalCard img={MaiAhmed} name=" Mai Ahmed" title="Front End" />
-      <PersonalCard img={EmanMohammed} name=" Eman Mohammed" title="Back End" />
-      <PersonalCard
-        img={DaliaMohamed}
-        name="Dalia Mahmoud"
-        title="Web Developer"
-      />
-      <PersonalCard
-        img={MahmoudIbrahim}
-        name="Mahmoud Ibrahim"
-        title="Web Penetration Test"
-      />
+      <div className="members-container">
+        <PersonalCard img={AliWazir} name="Uli Wazeer" title="AI Engineer" />
+        <PersonalCard img={AmrSalah} name="Amr Salah" title="Ui/Ux Designer" />
+        <PersonalCard
+          img={MostafaKadry}
+          name="Mostafa Kadry"
+          title="Web developer"
+        />
+
+        <PersonalCard img={Eslam} name="Eslam Ashraf" title="Web Developer" />
+        <PersonalCard
+          img={AhmedHassan}
+          name="Sayed Gomaa"
+          title="Data Science"
+        />
+        <PersonalCard img={Rabaa} name="Rabaa Wazeer" title="Data analyst" />
+        <PersonalCard img={MaiAhmed} name=" Mai Ahmed" title="Front End" />
+        <PersonalCard
+          img={EmanMohammed}
+          name=" Eman Mohammed"
+          title="Back End"
+        />
+        <PersonalCard
+          img={DaliaMohamed}
+          name="Dalia Mahmoud"
+          title="Web Developer"
+        />
+        <PersonalCard
+          img={MahmoudIbrahim}
+          name="Mahmoud Ibrahim"
+          title="Web Penetration Test"
+        />
       </div>
     </section>
   );

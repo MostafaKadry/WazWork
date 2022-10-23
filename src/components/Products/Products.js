@@ -29,7 +29,7 @@ const NavProducts = () => {
   const products = [
     "UI/UX",
     "Web development",
-    "Logo Design",
+    "Data Analysis",
     "Social Media Marketing",
     "Artificial intelligence",
     "Data Science",

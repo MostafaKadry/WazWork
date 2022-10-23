@@ -36,14 +36,18 @@ body {
     margin-bottom: 60px;
 }
 
-.members-container{
+.members-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 100px 0 0 0;
 }
 
 
-
+.mostafa-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
 
 @media only screen and (min-width: 300px) {
 
@@ -79,8 +83,8 @@ body {
     .head .content {
         order: 1;
     }
-    
-    .head-img img{
+
+    .head-img img {
         width: 100%;
     }
 }
@@ -100,7 +104,7 @@ body {
         order: -1;
     }
 
-    
+
 }
 
 

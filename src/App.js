@@ -8,7 +8,7 @@ import Team from "./components/Team/Team";
 import Footer from "./components/Footer/Footer";
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />

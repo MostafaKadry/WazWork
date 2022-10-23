@@ -42,10 +42,10 @@ const ContactUs = () => {
       <h6 className="my-5">
         <img src={PhoneIcon} alt="phone-icon" />
         <Link
-          to="tel:+20103366889"
+          to="tel:+2010568381"
           className="mx-1 text-decoration-none text-dark"
         >
-          +20103366889
+          +2010568381
         </Link>
       </h6>
       <div>
