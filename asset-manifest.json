@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/WazWork/static/css/main.86cd9ad0.css",
-    "main.js": "/WazWork/static/js/main.23263d52.js",
+    "main.css": "/WazWork/static/css/main.fd94e549.css",
+    "main.js": "/WazWork/static/js/main.55bf4703.js",
     "static/media/Our Team.svg": "/WazWork/static/media/Our Team.80d360abaec811f0cdfa864842b2a8a4.svg",
     "static/media/Home Page.png": "/WazWork/static/media/Home Page.723d52170c81e58291e9.png",
+    "static/media/mostafa-kadry.jpeg": "/WazWork/static/media/mostafa-kadry.6318aa2547b4a6161fbe.jpeg",
     "static/media/products.svg": "/WazWork/static/media/products.f66500cbfe69f64a65c820a78b397fef.svg",
     "static/media/services.svg": "/WazWork/static/media/services.be8a27482ccbee11f5fa71a5b6c8c133.svg",
     "static/media/Ali Wazir.png": "/WazWork/static/media/Ali Wazir.b2632a2f6fdf8db4bdd6.png",
@@ -32,11 +33,11 @@
     "static/media/Twitter.svg": "/WazWork/static/media/Twitter.caeff2c5c0bbca159383e9ecf13cdf83.svg",
     "index.html": "/WazWork/index.html",
     "static/media/Phone.svg": "/WazWork/static/media/Phone.2f74d971b4765aacc5653dcd7b27ab59.svg",
-    "main.86cd9ad0.css.map": "/WazWork/static/css/main.86cd9ad0.css.map",
-    "main.23263d52.js.map": "/WazWork/static/js/main.23263d52.js.map"
+    "main.fd94e549.css.map": "/WazWork/static/css/main.fd94e549.css.map",
+    "main.55bf4703.js.map": "/WazWork/static/js/main.55bf4703.js.map"
   },
   "entrypoints": [
-    "static/css/main.86cd9ad0.css",
-    "static/js/main.23263d52.js"
+    "static/css/main.fd94e549.css",
+    "static/js/main.55bf4703.js"
   ]
 }
